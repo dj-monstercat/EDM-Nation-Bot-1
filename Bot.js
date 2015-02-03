@@ -177,7 +177,7 @@
     var botCreator = "A secret";
     var botCreatorIDs = [];
 
-    var basicBot = {
+    var Random = {
         version: "2.1.4",
         status: false,
         name: "EDM-Nation bot",
