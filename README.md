@@ -1,2 +1,1 @@
-# EDM-Nation-Bot
-Go to this website: |https://github.com/EDM-Birthday/EDM-Nation-Bot/tree/Bot.js|
+|https://github.com/EDM-Birthday/EDM-Nation-Bot/tree/Bot.js |
