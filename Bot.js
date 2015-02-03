@@ -178,23 +178,23 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "1.6.4",
+        version: "2.1.4",
         status: false,
-        name: "Edmc-Bot",
+        name: "basicBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
-        cmdLink: "http://jsim31.wix.com/edm-nation#!commands/cjg9",
+        cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Edmc-Bot",
+            botName: "basicBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             maximumAfk: 120,
-            afkRemoval: false,
+            afkRemoval: true,
             maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: true,
@@ -204,7 +204,7 @@
             cycleGuard: true,
             maximumCycletime: 10,
             voteSkip: false,
-            voteSkipLimit: 7,
+            voteSkipLimit: 10,
             timeGuard: true,
             maximumSongLength: 10,
             autodisable: true,
@@ -228,9 +228,9 @@
             filterChat: true,
             etaRestriction: false,
             welcome: true,
-            opLink: "http://jsim31.wix.com/edm-nation#!banned/cq53",
+            opLink: null,
             rulesLink: null,
-            themeLink: "http://jsim31.wix.com/edm-nation#!theme-/c2038",
+            themeLink: null,
             fbLink: null,
             youtubeLink: null,
             website: null,
@@ -250,7 +250,7 @@
             bannedUsers: [],
             skippable: true,
             usercommand: true,
-            allcommand: false,
+            allcommand: true,
             afkInterval: null,
             autoskip: false,
             autoskipTimer: null,
@@ -815,6 +815,7 @@
             }
         },
         eventDjadvance: function (obj) {
+            $("#woot").click();
             var user = basicBot.userUtilities.lookupUser(obj.dj.id)
             for(var i = 0; i < basicBot.room.users.length; i++){
                 if(basicBot.room.users[i].id === user.id){
@@ -1203,8 +1204,9 @@
             }, 60 * 60 * 1000);
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
-            API.sendChat('/cap 78');
-            API.setVolume(9);
+            API.sendChat('/cap 1');
+            API.setVolume(0);
+            $("#woot").click();
             var emojibutton = $(".icon-emoji-on");
             if (emojibutton.length > 0) {
                 emojibutton[0].click();
