@@ -1,4 +1,2 @@
 # EDM-Nation-Bot
-Bot for edm nation
-Hello I am a random guy who wants to try to make a bot.
-So pls dont comment or anything.
+Go to this website: |https://github.com/EDM-Birthday/EDM-Nation-Bot/tree/Bot.js|
