@@ -174,13 +174,13 @@
         return m;
     };
 
-    var botCreator = "Matthew aka. Yemasthui";
+    var botCreator = "A secret";
     var botCreatorIDs = [];
 
     var basicBot = {
         version: "2.1.4",
         status: false,
-        name: "basicBot",
+        name: "EDM-Nation bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/EDM-Birthday/EDM-Nation-Bot/Bot.js/Bot.js",
         cmdLink: "http://goo.gl/qPOuYn",
@@ -204,9 +204,9 @@
             cycleGuard: true,
             maximumCycletime: 10,
             voteSkip: false,
-            voteSkipLimit: 10,
+            voteSkipLimit: 7,
             timeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 6,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
@@ -231,9 +231,9 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: null,
+            fbLink: "https://www.facebook.com/pages/EDM-Nation/1550760605164057",
             youtubeLink: null,
-            website: null,
+            website: "http://jsim31.wix.com/edm-nation",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
