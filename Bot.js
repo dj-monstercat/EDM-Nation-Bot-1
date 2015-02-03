@@ -1205,7 +1205,7 @@
             basicBot.loggedInID = API.getUser().id;
             basicBot.status = true;
             API.sendChat('/cap 78');
-            API.setVolume(10);
+            API.setVolume(50);
             $("#woot").click();
             var emojibutton = $(".icon-emoji-on");
             if (emojibutton.length > 0) {
