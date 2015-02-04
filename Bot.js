@@ -171,7 +171,7 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.1.4",
+        version: "4.6.2",
         status: false,
         name: "EDM-Nation bot",
         loggedInID: null,
