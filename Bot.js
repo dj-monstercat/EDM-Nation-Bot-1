@@ -222,9 +222,9 @@
             etaRestriction: false,
             welcome: true,
             opLink: "http://goo.gl/SGFnOh",
-            rulesLink: null,
+            rulesLink: "http://goo.gl/96KCIU",
             themeLink: null,
-            fbLink: "https://www.facebook.com/pages/EDM-Nation/1550760605164057",
+            fbLink: "http://goo.gl/QGmRD8",
             youtubeLink: null,
             website: "http://jsim31.wix.com/edm-nation",
             intervalMessages: [],
@@ -1829,8 +1829,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.fbLink === "string")
-                            API.sendChat(subChat(basicBot.chat.facebook, {link: basicBot.settings.fbLink}));
+                         API.sendChat(subChat(basicBot.chat.facebooklink, {botname: basicBot.settings.botName, link: basicBot.fbLink}));
                     }
                 }
             },
