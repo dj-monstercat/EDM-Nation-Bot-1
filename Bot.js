@@ -171,7 +171,7 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "4.6.2",
+        version: "4.6.3",
         status: false,
         name: "EDM-Nation bot",
         loggedInID: null,
@@ -2347,7 +2347,6 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.opLink === "string")
                             return API.sendChat(subChat(basicBot.chat.oplist, {link: basicBot.settings.opLink}));
                     }
                 }
@@ -2477,7 +2476,6 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.rulesLink === "string")
                             return API.sendChat(subChat(basicBot.chat.roomrules, {link: basicBot.settings.rulesLink}));
                     }
                 }
