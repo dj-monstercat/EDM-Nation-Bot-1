@@ -8,3 +8,6 @@ At this to a bookmark:
 
 I have customized the bot a little bit, still busy with it.
 Sometimes start the bot up again for the newest version.
+
+Beta:
+`javascript:(function(){$.getScript('https://rawgit.com/EDM-Birthday/EDM-Nation-Bot/Bot.js/BetaBot.js');})();`
