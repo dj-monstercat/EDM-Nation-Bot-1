@@ -250,8 +250,7 @@
             autodisableInterval: null,
             autodisableFunc: function () {
                 if (basicBot.status && basicBot.settings.autodisable) {
-                    API.sendChat('!afkdisable');
-                    API.sendChat('!joindisable');
+                    API.sendChat('We have commands, do you want to know wich? Type !commands');
                 }
             },
             queueing: 0,
