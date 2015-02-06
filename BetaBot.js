@@ -177,7 +177,7 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/EDM-Birthday/EDM-Nation-Bot/Bot.js/Bot.js",
         cmdLink: "http://goo.gl/qPOuYn",
-        chatLink: "https://rawgit.com/Yemasthui/trapbot/master/lang/en.json",
+        chatLink: "https://rawgit.com/EDM-Birthday/EDM-Nation-Bot/Bot.js/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -185,7 +185,7 @@
         settings: {
             botName: "EDM-Nation Bot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/trapbot/master/lang/en.json",
+            chatLink: "https://rawgit.com/EDM-Birthday/EDM-Nation-Bot/Bot.js/en.json",
             maximumAfk: 120,
             afkRemoval: false,
             maximumDc: 60,
@@ -232,8 +232,8 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/Yemasthui/trapbot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/trapbot-customization/master/blacklists/ExampleOPlist.json"
+                NSFW: "http://jsim31.wix.com/edm-nation",
+                OP: "http://jsim31.wix.com/edm-nation"
             }
         },
         room: {
