@@ -227,6 +227,7 @@
             fbLink: "http://goo.gl/QGmRD8",
             youtubeLink: null,
             website: "http://jsim31.wix.com/edm-nation",
+            twitter: "http://goo.gl/u9frz5",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
