@@ -171,7 +171,7 @@
     var botCreatorIDs = [];
 
     var trapbot = {
-        version: "4.6.7",
+        version: "4.6.9",
         status: false,
         name: "EDM-Nation bot",
         loggedInID: null,
